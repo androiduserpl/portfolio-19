@@ -6,27 +6,79 @@
 
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
+
+span {
+    color: #1ac056;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* Nawigacja syle - START - */
 
-nav {
-    margin-right: 0;
+#menu {
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
-ul {
-    list-style: none;
-    text-align: right;
-}
-ul a {
+#menu a {
     text-decoration: none;
+    
 }
 
+.menu-item {
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+ul a:hover {
+    color: #1ac056;
+}
+
+
 /* Nawigacja syle - STOP - */
+
+
+/* TOP - START - */
+
 .background {
     background: url(../media/img/header-background.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 400px;
-    margin: auto;
+    margin: 0;
 }
+
+header {
+    position: relative;
+    margin-top: 0;
+}
+
+.header-caption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+
+
+/*  O MNIE - START - */
