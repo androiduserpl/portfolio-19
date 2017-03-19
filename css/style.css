@@ -1,0 +1,25 @@
+/* Główne style - START - */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Nawigacja syle - START - */
+
+nav {
+    margin-right: 0;
+}
+
+/* Nawigacja syle - STOP - */
+.background {
+    background: url(../media/img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+    margin: auto;
+}
